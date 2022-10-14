@@ -25,7 +25,7 @@ public class BhaskaraBigDecimal {
         System.out.println("O valor de delta é: " + delta);
         int comparison = delta.compareTo(BigDecimal.ZERO);
         if (comparison == 0) {
-            System.out.println("Só existe uma raiz de X que é: " + bMenos.divide(doisA));
+            System.out.println("Existe somente uma raiz de X que é: " + bMenos.divide(doisA));
             return;
         }
 
