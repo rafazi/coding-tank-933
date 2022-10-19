@@ -6,11 +6,11 @@ public class BhaskaraBigDecimal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o coeficiente a: ");
-        BigDecimal a =  BigDecimal.valueOf(sc.nextDouble());
+        BigDecimal a =  sc.nextBigDecimal();
         System.out.println("Digite o coeficiente b: ");
-        BigDecimal b =  BigDecimal.valueOf(sc.nextDouble());
+        BigDecimal b =  sc.nextBigDecimal();
         System.out.println("Digite o coeficiente c: ");
-        BigDecimal c =  BigDecimal.valueOf(sc.nextDouble());
+        BigDecimal c =  sc.nextBigDecimal();
 
 
         BigDecimal b2 = b.pow(2);
